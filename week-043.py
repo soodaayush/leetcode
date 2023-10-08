@@ -17,6 +17,3 @@ def majorityElement(nums: list[int]) -> int:
     maxNum = max(numbersAmount, key=numbersAmount.get)
 
     return maxNum
-
-
-print(majorityElement([2,2,1,1,1,2,2]))
