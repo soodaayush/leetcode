@@ -7,12 +7,12 @@
 # You must write a solution in O(log(m * n)) time complexity.
 
 def searchMatrix(matrix: list[list[int]], target: int) -> bool:
-   for i in matrix:
-      for j in i:
-         if j == target:
-            return True
+    for i in matrix:
+        for j in i:
+            if j == target:
+                return True
 
-   return False
+    return False
 
 
-print(searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 3))
+print(searchMatrix([[1, 3, 5, 7], [10, 11, 16, 20], [23, 30, 34, 60]], 3))
