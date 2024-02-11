@@ -1,22 +1,13 @@
-import string
-
-
 def mostCommonWord(paragraph: str, banned: list[str]) -> str:
-    translator = str.maketrans(string.punctuation, " " * len(string.punctuation))
+    paragraph = paragraph.lower()
 
-    paragraph = paragraph.translate(translator).lower().split(" ")
+    symbols = "!?',;."
 
-    wordObj = {}
+    for i in symbols:
+        paragraph = paragraph.replace(i, " ")
+    paragraph = paragraph.split()
 
-    for i in paragraph:
-        if i != " ":
-            wordObj[i] = paragraph.count(i)
-
-    for i in banned:
-        if i in wordObj:
-            del wordObj[i]
-
-    return max(wordObj, key=wordObj.get)
+    print(paragraph)
 
 
-print(mostCommonWord("a, a, a, a, b,b,b,c, c", ["a"]))
+print(mostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", ["hit"]))
