@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/add-binary/
+
+// Given two binary strings a and b, return their sum as a binary string.
+
 #include <iostream>
 #include <string>
 #include <vector>
