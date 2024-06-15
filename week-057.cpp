@@ -25,5 +25,11 @@ int findMaxConsecutiveOnes(vector<int>& nums) {
         }
     }
 
+    cout << oldConsecutiveCount << endl;
     return oldConsecutiveCount;
+}
+
+int main() {
+    vector<int> nums {1, 1, 1, 0, 0, 0, 1};
+    findMaxConsecutiveOnes(nums);
 }

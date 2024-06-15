@@ -21,3 +21,8 @@ int fib(int n) {
     int j = fib(n - 2);
     return i + j;
 }
+
+int main() {
+    int n = 5;
+    fib(5);
+}

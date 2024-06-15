@@ -21,5 +21,11 @@ int maxProfit(vector<int>& prices) {
         profit = max(profit, prices[i] - buyPrice);
     }
 
+    cout << profit << endl;
     return profit;
+}
+
+int main() {
+    vector<int> prices {1, 2, 5, 6, 3, 5};
+    maxProfit(prices);
 }
