@@ -10,6 +10,10 @@ I wanted to enhance my problem solving skills and heard that Leetcode was a very
 
 The biggest challenge was, and still is, thinking of very efficient solutions for complex problems.
 
+## Lessons Learned
+
+I learned about how to break down problems into smaller chunks and solving those smaller chunks to solve the big problem in the first place.
+
 ## The Repository
 
 This repository contains all of the Leetcode challenges I have completed.
