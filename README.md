@@ -4,19 +4,19 @@
 
 ## Inspiration
 
-I wanted to enhance my problem solving skills and heard that Leetcode was a very good platform for that. I decided to cover one Leetcode problem a week.
+I wanted to enhance my problem-solving skills and heard that LeetCode was a very good platform for that. I want to maintain a frequency of solving one LeetCode problem per week.
 
 ## Challenges
 
-The biggest challenge was, and still is, thinking of very efficient solutions for complex problems.
+The biggest challenge was, and still is, thinking of very efficient solutions for complex problems. I want to target for O(1) efficiency in terms of runtime and memory.
 
 ## Lessons Learned
 
-I learned about how to break down problems into smaller chunks and solving those smaller chunks to solve the big problem in the first place.
+I learned how to break down problems into smaller chunks and solve those smaller pieces to tackle the big problem.
 
 ## The Repository
 
-This repository contains all of the Leetcode challenges I have completed.
+This repository contains all of the LeetCode challenges I have completed. I have covered LeetCode challenges in three languages: JavaScript, Python, and C++. C++ is the main language I use to solve LeetCode problems in order to learn the language better.
 
 ## Links
 
