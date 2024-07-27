@@ -1,3 +1,8 @@
+// https://leetcode.com/problems/excel-sheet-column-number/
+
+// Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding
+// column number.
+
 #include <iostream>
 #include <string>
 

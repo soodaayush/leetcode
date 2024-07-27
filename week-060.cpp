@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/excel-sheet-column-title/
+
+// Given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.
+
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -15,7 +19,6 @@ string convertToTitle(int columnNumber) {
     }
 
     reverse(result.begin(), result.end());
-    cout << result << endl;
     return result;
 }
 
