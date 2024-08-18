@@ -8,7 +8,7 @@ I wanted to enhance my problem-solving skills and heard that LeetCode was a very
 
 ## Challenges
 
-The biggest challenge was, and still is, thinking of very efficient solutions for complex problems. I want to target for O(1) efficiency in terms of runtime and memory.
+The biggest challenge was, and still is, thinking of very efficient solutions for complex problems. I want to target for O(1) efficiency in terms of runtime and memory when possible.
 
 ## Lessons Learned
 
