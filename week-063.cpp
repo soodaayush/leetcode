@@ -53,6 +53,7 @@ int guessNumber(int n) {
 
     return 0;
 }
+
 int main() {
     guessNumber(2);
 }
