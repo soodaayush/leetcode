@@ -1,11 +1,12 @@
-// https://leetcode.com/problems/single-element-in-a-sorted-array/
+// https://leetcode.com/problems/h-index-ii/
 
-// You are given a sorted array consisting of only integers where every element appears exactly
-// twice, except for one element which appears exactly once.
+// Given an array of integers citations where citations[i] is the number of citations a researcher
+// received for their ith paper and citations is sorted in ascending order, return the researcher's h-index.
 
-// Return the single element that appears only once.
+// According to the definition of h-index on Wikipedia: The h-index is defined as the maximum value of
+// h such that the given researcher has published at least h papers that have each been cited at least h times.
 
-// Your solution must run in O(log n) time and O(1) space.
+// You must write an algorithm that runs in logarithmic time.
 
 #include <iostream>
 #include <vector>
@@ -33,6 +34,6 @@ int hIndex(vector<int>& citations) {
 }
 
 int main() {
-    vector<int> nums {1, 2, 100};
-    hIndex(nums);
+    vector<int> citations {1, 2, 100};
+    hIndex(citations);
 }
