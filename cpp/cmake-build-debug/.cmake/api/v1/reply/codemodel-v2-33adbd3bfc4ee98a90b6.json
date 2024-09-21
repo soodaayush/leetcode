@@ -1,0 +1,222 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "week_051::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_051-Debug-9290ba435e2b2b28fb34.json",
+					"name" : "week_051",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_052::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_052-Debug-11c48c7deda797bef794.json",
+					"name" : "week_052",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_053::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_053-Debug-45b423365ab45834fa4e.json",
+					"name" : "week_053",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_054::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_054-Debug-b62fc810f148683e51fc.json",
+					"name" : "week_054",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_055::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_055-Debug-ca0b5486542b297caeba.json",
+					"name" : "week_055",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_056::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_056-Debug-d6d99a5f5368352bae66.json",
+					"name" : "week_056",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_057::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_057-Debug-02189972560c3442d003.json",
+					"name" : "week_057",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_058::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_058-Debug-e42960be3010fa2de1b7.json",
+					"name" : "week_058",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_059::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_059-Debug-06b9d54321bc5d0d7334.json",
+					"name" : "week_059",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_060::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_060-Debug-afb6d61cc18777bf0a4a.json",
+					"name" : "week_060",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_061::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_061-Debug-0254549d764da6d361f7.json",
+					"name" : "week_061",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_062::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_062-Debug-ebe68e684d28d1c406e9.json",
+					"name" : "week_062",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_063::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_063-Debug-a6f998d345afb3a69042.json",
+					"name" : "week_063",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_064::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_064-Debug-59d6626cb412a13671ba.json",
+					"name" : "week_064",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_065::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_065-Debug-9122132c70d23f1e51a9.json",
+					"name" : "week_065",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_066::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_066-Debug-4964a00dee60f93bdce7.json",
+					"name" : "week_066",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_067::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_067-Debug-de66990e365b0ed84d04.json",
+					"name" : "week_067",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_068::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_068-Debug-401e6441ea3570045dee.json",
+					"name" : "week_068",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_069::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_069-Debug-b2f22b5985480213be0e.json",
+					"name" : "week_069",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/aayushsood/Development/leetcode/cpp/cmake-build-debug",
+		"source" : "/Users/aayushsood/Development/leetcode/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
