@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/aayushsood/Development/leetcode/cpp/week-065.cpp" "CMakeFiles/week_065.dir/week-065.cpp.o" "gcc" "CMakeFiles/week_065.dir/week-065.cpp.o.d"
+  "C:/Users/aayus/Development/leetcode/cpp/week-065.cpp" "CMakeFiles/week_065.dir/week-065.cpp.obj" "gcc" "CMakeFiles/week_065.dir/week-065.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
