@@ -82,6 +82,7 @@ all: CMakeFiles/week_067.dir/all
 all: CMakeFiles/week_068.dir/all
 all: CMakeFiles/week_069.dir/all
 all: CMakeFiles/week_070.dir/all
+all: CMakeFiles/week_071.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -109,6 +110,7 @@ clean: CMakeFiles/week_067.dir/clean
 clean: CMakeFiles/week_068.dir/clean
 clean: CMakeFiles/week_069.dir/clean
 clean: CMakeFiles/week_070.dir/clean
+clean: CMakeFiles/week_071.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -630,6 +632,32 @@ week_070: CMakeFiles/week_070.dir/rule
 CMakeFiles/week_070.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\week_070.dir\build.make CMakeFiles/week_070.dir/clean
 .PHONY : CMakeFiles/week_070.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/week_071.dir
+
+# All Build rule for target.
+CMakeFiles/week_071.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\week_071.dir\build.make CMakeFiles/week_071.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\week_071.dir\build.make CMakeFiles/week_071.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\aayus\Development\leetcode\cpp\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target week_071"
+.PHONY : CMakeFiles/week_071.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/week_071.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aayus\Development\leetcode\cpp\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/week_071.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aayus\Development\leetcode\cpp\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/week_071.dir/rule
+
+# Convenience name for target.
+week_071: CMakeFiles/week_071.dir/rule
+.PHONY : week_071
+
+# clean rule for target.
+CMakeFiles/week_071.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\week_071.dir\build.make CMakeFiles/week_071.dir/clean
+.PHONY : CMakeFiles/week_071.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

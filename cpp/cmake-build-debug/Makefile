@@ -375,6 +375,19 @@ week_070/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\week_070.dir\build.make CMakeFiles/week_070.dir/build
 .PHONY : week_070/fast
 
+#=============================================================================
+# Target rules for targets named week_071
+
+# Build rule for target.
+week_071: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 week_071
+.PHONY : week_071
+
+# fast build rule for target.
+week_071/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\week_071.dir\build.make CMakeFiles/week_071.dir/build
+.PHONY : week_071/fast
+
 week-051.obj: week-051.cpp.obj
 .PHONY : week-051.obj
 
@@ -855,6 +868,30 @@ week-070.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\week_070.dir\build.make CMakeFiles/week_070.dir/week-070.cpp.s
 .PHONY : week-070.cpp.s
 
+week-071.obj: week-071.cpp.obj
+.PHONY : week-071.obj
+
+# target to build an object file
+week-071.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\week_071.dir\build.make CMakeFiles/week_071.dir/week-071.cpp.obj
+.PHONY : week-071.cpp.obj
+
+week-071.i: week-071.cpp.i
+.PHONY : week-071.i
+
+# target to preprocess a source file
+week-071.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\week_071.dir\build.make CMakeFiles/week_071.dir/week-071.cpp.i
+.PHONY : week-071.cpp.i
+
+week-071.s: week-071.cpp.s
+.PHONY : week-071.s
+
+# target to generate assembly for a file
+week-071.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\week_071.dir\build.make CMakeFiles/week_071.dir/week-071.cpp.s
+.PHONY : week-071.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -883,6 +920,7 @@ help:
 	@echo ... week_068
 	@echo ... week_069
 	@echo ... week_070
+	@echo ... week_071
 	@echo ... week-051.obj
 	@echo ... week-051.i
 	@echo ... week-051.s
@@ -943,6 +981,9 @@ help:
 	@echo ... week-070.obj
 	@echo ... week-070.i
 	@echo ... week-070.s
+	@echo ... week-071.obj
+	@echo ... week-071.i
+	@echo ... week-071.s
 .PHONY : help
 
 
