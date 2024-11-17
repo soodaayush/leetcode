@@ -19,5 +19,6 @@ C:/Users/aayus/Development/leetcode/cpp/cmake-build-debug/CMakeFiles/week_068.di
 C:/Users/aayus/Development/leetcode/cpp/cmake-build-debug/CMakeFiles/week_069.dir
 C:/Users/aayus/Development/leetcode/cpp/cmake-build-debug/CMakeFiles/week_070.dir
 C:/Users/aayus/Development/leetcode/cpp/cmake-build-debug/CMakeFiles/week_071.dir
+C:/Users/aayus/Development/leetcode/cpp/cmake-build-debug/CMakeFiles/week_072.dir
 C:/Users/aayus/Development/leetcode/cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/aayus/Development/leetcode/cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

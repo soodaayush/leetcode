@@ -35,7 +35,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					]
 				}
 			],
@@ -70,7 +71,8 @@
 						17,
 						18,
 						19,
-						20
+						20,
+						21
 					]
 				}
 			],
@@ -221,6 +223,13 @@
 					"id" : "week_071::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-week_071-Debug-dadcd5d92b325fbf082d.json",
 					"name" : "week_071",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "week_072::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-week_072-Debug-d34e56591e35af7a069a.json",
+					"name" : "week_072",
 					"projectIndex" : 0
 				}
 			]
