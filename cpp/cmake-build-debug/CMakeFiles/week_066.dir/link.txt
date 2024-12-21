@@ -1,3 +1,1 @@
-C:\Users\aayus\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\week_066.dir/objects.a
-C:\Users\aayus\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\week_066.dir/objects.a @CMakeFiles\week_066.dir\objects1.rsp
-C:\Users\aayus\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\week_066.dir/objects.a -Wl,--no-whole-archive -o week_066.exe -Wl,--out-implib,libweek_066.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\week_066.dir\linkLibs.rsp
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/week_066.dir/week-066.cpp.o" -o week_066

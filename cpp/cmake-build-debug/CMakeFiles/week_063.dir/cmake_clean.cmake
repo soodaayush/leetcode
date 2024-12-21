@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/week_063.dir/week-063.cpp.obj"
-  "CMakeFiles/week_063.dir/week-063.cpp.obj.d"
-  "libweek_063.dll.a"
-  "week_063.exe"
-  "week_063.exe.manifest"
+  "CMakeFiles/week_063.dir/week-063.cpp.o"
+  "CMakeFiles/week_063.dir/week-063.cpp.o.d"
+  "week_063"
   "week_063.pdb"
 )
 
