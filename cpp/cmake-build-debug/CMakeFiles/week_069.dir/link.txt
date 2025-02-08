@@ -1,3 +1,0 @@
-C:\Users\aayus\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\week_069.dir/objects.a
-C:\Users\aayus\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\week_069.dir/objects.a @CMakeFiles\week_069.dir\objects1.rsp
-C:\Users\aayus\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\week_069.dir/objects.a -Wl,--no-whole-archive -o week_069.exe -Wl,--out-implib,libweek_069.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\week_069.dir\linkLibs.rsp
