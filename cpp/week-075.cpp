@@ -22,8 +22,6 @@ bool isValid(string s) {
         {'}', '{'}
     };
 
-    // cout << closeToOpen['('] << endl;
-
     for (char c : s) {
         if (closeToOpen.count(c)) {
             if (!stack.empty() && stack.top() == closeToOpen[c]) {
