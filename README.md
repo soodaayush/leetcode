@@ -4,7 +4,7 @@
 
 ## Inspiration
 
-I wanted to enhance my problem-solving skills through the problem-solving platform named LeetCode. I want to maintain a frequency of solving one LeetCode problem per week.
+I wanted to enhance my problem-solving skills through LeetCode. I want to maintain a frequency of solving one LeetCode problem per week.
 
 ## Challenges
 
