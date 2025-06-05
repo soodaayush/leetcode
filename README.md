@@ -4,19 +4,29 @@
 
 ## Inspiration
 
-I wanted to enhance my problem-solving skills through LeetCode. I want to maintain a frequency of solving one LeetCode problem per week.
+The repository documents my ongoing journey through LeetCode, where I aim to solve one problem every week. The goal is to gradually build proficiency, improve coding efficiency, and develop a deeper understanding of core algorithms and data structures. 
 
 ## Challenges
 
-The biggest challenge was, and still is, thinking of very efficient solutions for complex problems.
+One of the most significant challenges has been devising efficient solutions for complex problems, not just solving them, but doing so in a way that meets performance constraints and scales well.
 
 ## Lessons Learned
 
-I learned how to break down problems into smaller chunks and solve those smaller pieces to tackle the big problem.
+Through consistent practice, I've learned to:
+
+- Break down complex problems into mangeable sub-problems
+- Identify patterns across different types of challenges
+- Choose the right data structures and algorithms for the task at hand
 
 ## The Repository
 
-This repository contains all of the LeetCode challenges I have completed. I have covered LeetCode challenges in three languages: JavaScript, Python, and C++. At the moment, C++ is the main language I use to solve LeetCode problems in order to master the fundamentals of the language along with preparing for competitive programming competitions such as the Canadian Computing Competition.
+This repository contains my personal solutions to LeetCode problems, implemented in:
+
+- C++ (primary language, currently used for most submissions)
+- Python
+- JavaScript
+
+I focus primarily on C++ to reinforce my understanding of its syntax, standard library, and performance characteristics.
 
 ## Links
 
