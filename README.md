@@ -22,7 +22,7 @@ Through consistent practice, I've learned to:
 
 This repository contains my personal solutions to LeetCode problems, implemented in:
 
-- C++ (primary language, currently used for most submissions)
+- C++ (primary language, currently used for recent submissions)
 - Python
 - JavaScript
 
