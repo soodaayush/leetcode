@@ -4,7 +4,7 @@
 
 ## Inspiration
 
-The repository documents my ongoing journey through LeetCode, where I aim to solve one problem every week. The goal is to gradually build proficiency, improve coding efficiency, and develop a deeper understanding of core algorithms and data structures. 
+The repository documents my ongoing journey through LeetCode, where I aim to solve one problem every week. My goal is to gradually build proficiency, improve coding efficiency, and develop a deeper understanding of core algorithms and data structures. 
 
 ## Challenges
 
