@@ -1,7 +1,8 @@
-# https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+# https://leetcode.com/problems/middle-of-the-linked-list/
 
-# Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the
-# linked list sorted as well.
+# Given the head of a singly linked list, return the middle node of the linked list.
+
+# If there are two middle nodes, return the second middle node.
 
 class ListNode:
     def __init__(self, val=0, next=None):
