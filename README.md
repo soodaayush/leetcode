@@ -26,7 +26,7 @@ This repository contains my personal solutions to LeetCode problems, implemented
 - Python (primary language, currently used for recent submissions)
 - JavaScript
 
-I focus primarily on C++ to reinforce my understanding of its syntax, standard library, and performance characteristics.
+I focus primarily on Python to reinforce my understanding of its syntax, standard library, and performance characteristics.
 
 ## Links
 
