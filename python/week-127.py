@@ -11,31 +11,17 @@ class TreeNode:
 
 class Solution:
     def isSymmetric(self, root: list[TreeNode]) -> bool:
-        arr_left = []
-        arr_right = []
+        def dfs(left, right):
+            if not left and not right: # If both nodes are null, must be symmetrical
+                return True
 
-        def traverse_left(root):
-            if root is None:
-                arr_left.append(None)
-                return
+            if not left or not right: # If only one node is null, not symmetrical
+                return False
 
-            arr_left.append(root.val)
-            traverse_left(root.left)
-            traverse_left(root.right)
+            return left.val == right.val and dfs(left.left, right.right) and dfs(left.right, right.left)
+            # Above checks if left node == right node, and if their subtreees are equal
 
-        def traverse_right(root):
-            if root is None:
-                arr_right.append(None)
-                return
-
-            arr_right.append(root.val)
-            traverse_right(root.right)
-            traverse_right(root.left)
-
-        traverse_left(root.left)
-        traverse_right(root.right)
-
-        return arr_left == arr_right
+        return dfs(root.left, root.right)
 
 soln = Solution()
 
