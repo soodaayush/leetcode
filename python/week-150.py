@@ -3,6 +3,9 @@
 # Given an array of strings strs, group the anagrams together.
 # You can return the answer in any order.
 
+# Time Complexity: O(n * klogk) klogk = sorting of strings
+# Space Complexity: O(n * k) k = length of strings
+
 from collections import defaultdict
 
 class Solution:

@@ -11,6 +11,9 @@
 
 # Notice that you may not slant the container.
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def maxArea(self, height: list[int]) -> int:
         # Two pointer solution

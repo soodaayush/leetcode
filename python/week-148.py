@@ -5,6 +5,9 @@
 
 # A subarray is a contiguous non-empty sequence of elements within an array.
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 from collections import defaultdict
 
 
