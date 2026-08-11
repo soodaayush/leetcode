@@ -4,6 +4,9 @@
 # merge all overlapping intervals, and return an array of the
 # non-overlapping intervals that cover all the intervals in the input.
 
+# Time Complexity: O(n log n)
+# Space Complexity: O(n)
+
 class Solution:
     def merge(self, intervals: list[list[int]]) -> list[list[int]]:
         intervals.sort(key=lambda x: x[0])

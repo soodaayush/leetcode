@@ -4,6 +4,9 @@
 # return the minimal length of a subarray whose sum is greater than or
 # equal to target. If there is no such subarray, return 0 instead.
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 class Solution:
     def minSubArrayLen(self, target: int, nums: list[int]) -> int:
         min_len = float("inf")

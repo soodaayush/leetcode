@@ -7,6 +7,10 @@
 # adjacent cells, where adjacent cells are horizontally or
 # vertically neighboring. The same letter cell may not be used more than once.
 
+# Time Complexity: O(M * N * 3^L) 3^L = 3 = amount of directions you can go,
+# L = amount of letters in a word
+# Space Complexity: O(L) L = length of word to find
+
 class Solution:
     def exist(self, board: list[list[str]], word: str) -> bool:
         seen = set()
