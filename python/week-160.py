@@ -5,6 +5,9 @@
 
 # The distance between two cells sharing a common edge is 1.
 
+# Time Complexity: O(M x N)
+# Space Complexity: O(M x N)
+
 from collections import deque
 
 class Solution:
