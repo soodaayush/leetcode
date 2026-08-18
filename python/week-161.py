@@ -12,6 +12,9 @@
 
 # The length of a clear path is the number of visited cells of this path.
 
+# Time Complexity: O(M x N)
+# Space Complexity: O(M x N)
+
 from collections import deque
 
 class Solution:
