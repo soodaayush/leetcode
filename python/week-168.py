@@ -8,6 +8,9 @@
 # possible that it was your friends name, with some characters (possibly none)
 # being long pressed.
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 class Solution:
     def isLongPressedName(self, name: str, typed: str) -> bool:
         i = 0
