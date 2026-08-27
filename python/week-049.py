@@ -11,9 +11,23 @@
 
 # Return k.
 
-def removeDuplicates(nums: list[int]) -> int:
-    nums[:] = sorted(set(nums))
-    return len(nums)
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 
+class Solution:
+    def removeDuplicates(self, nums: list[int]) -> int:
+        slow = 0
+        fast = 1
 
-print(removeDuplicates([1, 1, 2]))
+        while fast <= len(nums) - 1:
+            if nums[fast] != nums[slow]:
+                nums[slow + 1] = nums[fast]
+                slow += 1
+
+            fast += 1
+
+        return slow + 1
+
+soln = Solution()
+
+print(soln.removeDuplicates([1, 1, 2]))
