@@ -7,11 +7,26 @@
 
 # You must solve this problem without using the library's sort function.
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 def sortColors(nums: list[int]) -> None:
-    for i in range(0, len(nums)):
-        for j in range(i + 1, len(nums)):
-            if nums[i] > nums[j]:
-                nums[i], nums[j] = nums[j], nums[i]
+    low = 0
+    mid = 0
+    high = len(nums) - 1
+
+    while mid <= high:
+        if nums[mid] == 0:
+            nums[low], nums[mid] = nums[mid], nums[low]
+            low += 1
+            mid += 1
+        elif nums[mid] == 1:
+            mid += 1
+        elif nums[mid] == 2:
+            nums[mid], nums[high] = nums[high], nums[mid]
+            high -= 1
+
+    return nums
 
 
 sortColors([2, 0, 2, 1, 1, 0])
