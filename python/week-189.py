@@ -12,6 +12,9 @@
 
 # Return the minimized maximum pair sum after optimally pairing up the elements.
 
+# Time Complexity: O(n log n)
+# Space Complexity: O(1)
+
 class Solution:
     def minPairSum(self, nums: List[int]) -> int:
         nums.sort()
